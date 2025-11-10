@@ -9,7 +9,7 @@ A compact platform that simulates enterprise software delivery tracking, analyti
 - Folder structure
 - AI summaries
 - Security & roadmap
-- License & author
+
 
 ## Key highlights
 - Full project + milestone CRUD with automatic progress recalculation
@@ -71,7 +71,3 @@ Planned improvements:
 - Real-time alerts for overdue milestones and high-risk items
 - Enhanced AI summarization and automated performance analytics
 
-## License & author
-All content © 2025 Sreevastha Thotamsetty — for educational and demonstration purposes.
-
-Author: Sreevastha Thotamsetty (GitHub: sreevastha, Hyderabad, India)

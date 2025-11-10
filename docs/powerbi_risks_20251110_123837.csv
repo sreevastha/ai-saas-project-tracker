@@ -1,0 +1,31 @@
+Risk ID,Project ID,Project Name,Risk Name,Description,Severity,Severity Level,Mitigation Plan,Status,Is High Risk,Is Open,Created At,Updated At
+1,1,Cloud Migration Initiative,Technology Dependencies,Third-party services may have delays,High,3,Develop mitigation strategy for technology dependencies,Open,Yes,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+2,1,Cloud Migration Initiative,Resource Availability,Key team members may not be available,Medium,2,Develop mitigation strategy for resource availability,Open,No,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+3,1,Cloud Migration Initiative,Scope Creep,Project requirements may expand,Medium,2,Develop mitigation strategy for scope creep,Open,No,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+4,2,Mobile App Development,Integration Challenges,Complex integration with existing systems,High,3,Develop mitigation strategy for integration challenges,Open,Yes,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+5,2,Mobile App Development,Budget Constraints,Project may exceed allocated budget,Low,1,Develop mitigation strategy for budget constraints,Open,No,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+6,2,Mobile App Development,Technology Dependencies,Third-party services may have delays,High,3,Develop mitigation strategy for technology dependencies,Open,Yes,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+7,3,Data Analytics Platform,Technology Dependencies,Third-party services may have delays,High,3,Develop mitigation strategy for technology dependencies,Open,Yes,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+8,4,Security Audit & Compliance,Technology Dependencies,Third-party services may have delays,High,3,Develop mitigation strategy for technology dependencies,Open,Yes,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+9,4,Security Audit & Compliance,Budget Constraints,Project may exceed allocated budget,Low,1,Develop mitigation strategy for budget constraints,Open,No,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+10,5,API Gateway Implementation,Budget Constraints,Project may exceed allocated budget,Low,1,Develop mitigation strategy for budget constraints,Open,No,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+11,5,API Gateway Implementation,Integration Challenges,Complex integration with existing systems,High,3,Develop mitigation strategy for integration challenges,Open,Yes,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+12,6,Cloud Migration Initiative,Technology Dependencies,Third-party services may have delays,High,3,Develop mitigation strategy for technology dependencies,Open,Yes,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+13,7,Mobile App Development,Resource Availability,Key team members may not be available,Medium,2,Develop mitigation strategy for resource availability,Mitigated,No,No,2025-11-10 06:45:18,2025-11-10 06:45:18
+14,8,Data Analytics Platform,Technology Dependencies,Third-party services may have delays,High,3,Develop mitigation strategy for technology dependencies,Open,Yes,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+15,8,Data Analytics Platform,Budget Constraints,Project may exceed allocated budget,Low,1,Develop mitigation strategy for budget constraints,Open,No,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+16,8,Data Analytics Platform,Scope Creep,Project requirements may expand,Medium,2,Develop mitigation strategy for scope creep,Mitigated,No,No,2025-11-10 06:45:18,2025-11-10 06:45:18
+17,9,Security Audit & Compliance,Technology Dependencies,Third-party services may have delays,High,3,Develop mitigation strategy for technology dependencies,Open,Yes,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+18,9,Security Audit & Compliance,Budget Constraints,Project may exceed allocated budget,Low,1,Develop mitigation strategy for budget constraints,Open,No,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+19,9,Security Audit & Compliance,Scope Creep,Project requirements may expand,Medium,2,Develop mitigation strategy for scope creep,Open,No,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+20,10,API Gateway Implementation,Budget Constraints,Project may exceed allocated budget,Low,1,Develop mitigation strategy for budget constraints,Open,No,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+21,11,Cloud Migration Initiative,Technology Dependencies,Third-party services may have delays,High,3,Develop mitigation strategy for technology dependencies,Open,Yes,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32
+22,12,Mobile App Development,Budget Constraints,Project may exceed allocated budget,Low,1,Develop mitigation strategy for budget constraints,Open,No,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32
+23,13,Data Analytics Platform,Resource Availability,Key team members may not be available,Medium,2,Develop mitigation strategy for resource availability,Mitigated,No,No,2025-11-10 06:45:32,2025-11-10 06:45:32
+24,13,Data Analytics Platform,Integration Challenges,Complex integration with existing systems,High,3,Develop mitigation strategy for integration challenges,Open,Yes,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32
+25,14,Security Audit & Compliance,Integration Challenges,Complex integration with existing systems,High,3,Develop mitigation strategy for integration challenges,Open,Yes,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32
+26,14,Security Audit & Compliance,Technology Dependencies,Third-party services may have delays,High,3,Develop mitigation strategy for technology dependencies,Mitigated,Yes,No,2025-11-10 06:45:32,2025-11-10 06:45:32
+27,14,Security Audit & Compliance,Resource Availability,Key team members may not be available,Medium,2,Develop mitigation strategy for resource availability,Open,No,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32
+28,15,API Gateway Implementation,Budget Constraints,Project may exceed allocated budget,Low,1,Develop mitigation strategy for budget constraints,Open,No,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32
+29,15,API Gateway Implementation,Scope Creep,Project requirements may expand,Medium,2,Develop mitigation strategy for scope creep,Open,No,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32
+30,15,API Gateway Implementation,Technology Dependencies,Third-party services may have delays,High,3,Develop mitigation strategy for technology dependencies,Open,Yes,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32

@@ -1,0 +1,11 @@
+Flask
+Flask-CORS
+SQLAlchemy
+plotly
+pandas
+python-dateutil
+transformers
+torch
+requests
+Werkzeug
+

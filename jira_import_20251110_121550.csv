@@ -1,0 +1,624 @@
+Summary,Issue Type,Project Key,Description,Epic Name,Epic Link,Parent,Priority,Status,Labels,Due Date,Assignee,Story Points
+Cloud Migration Initiative,Epic,EPT,"Owner: Sarah Johnson
+Status: In Progress
+Completion: 65.0%
+Start Date: 2025-09-11
+Deadline: 2025-12-10
+
+Migrate legacy systems to cloud infrastructure",Cloud Migration Initiative,,,Medium,In Progress,"project-tracker,in-progress",2025-12-10,,
+Mobile App Development,Epic,EPT,"Owner: Michael Chen
+Status: In Progress
+Completion: 80.0%
+Start Date: 2025-09-26
+Deadline: 2025-11-25
+
+Build iOS and Android mobile applications",Mobile App Development,,,High,In Progress,"project-tracker,in-progress,high-completion",2025-11-25,,
+Data Analytics Platform,Epic,EPT,"Owner: Emily Rodriguez
+Status: In Progress
+Completion: 40.0%
+Start Date: 2025-10-11
+Deadline: 2026-01-09
+
+Develop analytics dashboard for business intelligence",Data Analytics Platform,,,Medium,In Progress,"project-tracker,in-progress",2026-01-09,,
+Security Audit & Compliance,Epic,EPT,"Owner: David Kim
+Status: On Hold
+Completion: 30.0%
+Start Date: 2025-08-12
+Deadline: 2025-10-31
+
+Conduct security audit and ensure compliance",Security Audit & Compliance,,,Highest,On Hold,"project-tracker,on-hold",2025-10-31,,
+API Gateway Implementation,Epic,EPT,"Owner: Lisa Wang
+Status: Completed
+Completion: 100.0%
+Start Date: 2025-07-13
+Deadline: 2025-10-21
+
+Implement centralized API gateway for microservices",API Gateway Implementation,,,Highest,Done,"project-tracker,completed,high-completion",2025-10-21,,
+Cloud Migration Initiative,Epic,EPT,"Owner: Sarah Johnson
+Status: In Progress
+Completion: 65.0%
+Start Date: 2025-09-11
+Deadline: 2025-12-10
+
+Migrate legacy systems to cloud infrastructure",Cloud Migration Initiative,,,Medium,In Progress,"project-tracker,in-progress",2025-12-10,,
+Mobile App Development,Epic,EPT,"Owner: Michael Chen
+Status: In Progress
+Completion: 80.0%
+Start Date: 2025-09-26
+Deadline: 2025-11-25
+
+Build iOS and Android mobile applications",Mobile App Development,,,High,In Progress,"project-tracker,in-progress,high-completion",2025-11-25,,
+Data Analytics Platform,Epic,EPT,"Owner: Emily Rodriguez
+Status: In Progress
+Completion: 40.0%
+Start Date: 2025-10-11
+Deadline: 2026-01-09
+
+Develop analytics dashboard for business intelligence",Data Analytics Platform,,,Medium,In Progress,"project-tracker,in-progress",2026-01-09,,
+Security Audit & Compliance,Epic,EPT,"Owner: David Kim
+Status: On Hold
+Completion: 30.0%
+Start Date: 2025-08-12
+Deadline: 2025-10-31
+
+Conduct security audit and ensure compliance",Security Audit & Compliance,,,Highest,On Hold,"project-tracker,on-hold",2025-10-31,,
+API Gateway Implementation,Epic,EPT,"Owner: Lisa Wang
+Status: Completed
+Completion: 100.0%
+Start Date: 2025-07-13
+Deadline: 2025-10-21
+
+Implement centralized API gateway for microservices",API Gateway Implementation,,,Highest,Done,"project-tracker,completed,high-completion",2025-10-21,,
+Cloud Migration Initiative,Epic,EPT,"Owner: Sarah Johnson
+Status: In Progress
+Completion: 65.0%
+Start Date: 2025-09-11
+Deadline: 2025-12-10
+
+Migrate legacy systems to cloud infrastructure",Cloud Migration Initiative,,,Medium,In Progress,"project-tracker,in-progress",2025-12-10,,
+Mobile App Development,Epic,EPT,"Owner: Michael Chen
+Status: In Progress
+Completion: 80.0%
+Start Date: 2025-09-26
+Deadline: 2025-11-25
+
+Build iOS and Android mobile applications",Mobile App Development,,,High,In Progress,"project-tracker,in-progress,high-completion",2025-11-25,,
+Data Analytics Platform,Epic,EPT,"Owner: Emily Rodriguez
+Status: In Progress
+Completion: 40.0%
+Start Date: 2025-10-11
+Deadline: 2026-01-09
+
+Develop analytics dashboard for business intelligence",Data Analytics Platform,,,Medium,In Progress,"project-tracker,in-progress",2026-01-09,,
+Security Audit & Compliance,Epic,EPT,"Owner: David Kim
+Status: On Hold
+Completion: 30.0%
+Start Date: 2025-08-12
+Deadline: 2025-10-31
+
+Conduct security audit and ensure compliance",Security Audit & Compliance,,,Highest,On Hold,"project-tracker,on-hold",2025-10-31,,
+API Gateway Implementation,Epic,EPT,"Owner: Lisa Wang
+Status: Completed
+Completion: 100.0%
+Start Date: 2025-07-13
+Deadline: 2025-10-21
+
+Implement centralized API gateway for microservices",API Gateway Implementation,,,Highest,Done,"project-tracker,completed,high-completion",2025-10-21,,
+Requirements Gathering,Story,EPT,"Target Date: 2025-09-26
+Status: Completed
+
+Complete requirements gathering phase
+Completed: 2025-09-26",,Cloud Migration Initiative,,High,Done,"project-tracker,milestone,completed",2025-09-26,,5
+Architecture Design,Story,EPT,"Target Date: 2025-10-11
+Status: Completed
+
+Complete architecture design phase
+Completed: 2025-10-11",,Cloud Migration Initiative,,High,Done,"project-tracker,milestone,completed",2025-10-11,,3
+Implementation,Story,EPT,"Target Date: 2025-10-26
+Status: Completed
+
+Complete implementation phase
+Completed: 2025-10-26",,Cloud Migration Initiative,,High,Done,"project-tracker,milestone,completed",2025-10-26,,8
+Integration,Story,EPT,"Target Date: 2025-11-10
+Status: Completed
+
+Complete integration phase
+Completed: 2025-11-10",,Cloud Migration Initiative,,High,Done,"project-tracker,milestone,completed",2025-11-10,,5
+Go-Live,Story,EPT,"Target Date: 2025-11-25
+Status: Pending
+
+Complete go-live phase",,Cloud Migration Initiative,,Medium,To Do,"project-tracker,milestone,pending",2025-11-25,,5
+Requirements Gathering,Story,EPT,"Target Date: 2025-10-06
+Status: Completed
+
+Complete requirements gathering phase
+Completed: 2025-10-06",,Mobile App Development,,High,Done,"project-tracker,milestone,completed",2025-10-06,,5
+Architecture Design,Story,EPT,"Target Date: 2025-10-16
+Status: Completed
+
+Complete architecture design phase
+Completed: 2025-10-16",,Mobile App Development,,High,Done,"project-tracker,milestone,completed",2025-10-16,,3
+Implementation,Story,EPT,"Target Date: 2025-10-26
+Status: Completed
+
+Complete implementation phase
+Completed: 2025-10-26",,Mobile App Development,,High,Done,"project-tracker,milestone,completed",2025-10-26,,8
+Integration,Story,EPT,"Target Date: 2025-11-05
+Status: Completed
+
+Complete integration phase
+Completed: 2025-11-05",,Mobile App Development,,High,Done,"project-tracker,milestone,completed",2025-11-05,,5
+Go-Live,Story,EPT,"Target Date: 2025-11-15
+Status: Pending
+
+Complete go-live phase",,Mobile App Development,,High,To Do,"project-tracker,milestone,pending",2025-11-15,,5
+Planning & Design,Story,EPT,"Target Date: 2025-10-26
+Status: Completed
+
+Complete planning & design phase
+Completed: 2025-10-26",,Data Analytics Platform,,High,Done,"project-tracker,milestone,completed",2025-10-26,,3
+Development Phase,Story,EPT,"Target Date: 2025-11-10
+Status: Completed
+
+Complete development phase phase
+Completed: 2025-11-10",,Data Analytics Platform,,High,Done,"project-tracker,milestone,completed",2025-11-10,,8
+Testing & QA,Story,EPT,"Target Date: 2025-11-25
+Status: Pending
+
+Complete testing & qa phase",,Data Analytics Platform,,Medium,To Do,"project-tracker,milestone,pending",2025-11-25,,5
+Deployment,Story,EPT,"Target Date: 2025-12-10
+Status: Pending
+
+Complete deployment phase",,Data Analytics Platform,,Medium,To Do,"project-tracker,milestone,pending",2025-12-10,,3
+Documentation,Story,EPT,"Target Date: 2025-12-25
+Status: Pending
+
+Complete documentation phase",,Data Analytics Platform,,Medium,To Do,"project-tracker,milestone,pending",2025-12-25,,2
+Discovery,Story,EPT,"Target Date: 2025-08-28
+Status: Completed
+
+Complete discovery phase
+Completed: 2025-08-28",,Security Audit & Compliance,,High,Done,"project-tracker,milestone,completed",2025-08-28,,5
+Prototype,Story,EPT,"Target Date: 2025-09-13
+Status: Completed
+
+Complete prototype phase
+Completed: 2025-09-13",,Security Audit & Compliance,,High,Done,"project-tracker,milestone,completed",2025-09-13,,5
+Beta Release,Story,EPT,"Target Date: 2025-09-29
+Status: Delayed
+
+Complete beta release phase",,Security Audit & Compliance,,Highest,In Progress,"project-tracker,milestone,delayed",2025-09-29,,3
+Production Release,Story,EPT,"Target Date: 2025-10-15
+Status: Delayed
+
+Complete production release phase",,Security Audit & Compliance,,Highest,In Progress,"project-tracker,milestone,delayed",2025-10-15,,3
+Planning & Design,Story,EPT,"Target Date: 2025-07-30
+Status: Completed
+
+Complete planning & design phase
+Completed: 2025-07-30",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-07-30,,3
+Development Phase,Story,EPT,"Target Date: 2025-08-15
+Status: Completed
+
+Complete development phase phase
+Completed: 2025-08-15",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-08-15,,8
+Testing & QA,Story,EPT,"Target Date: 2025-09-01
+Status: Completed
+
+Complete testing & qa phase
+Completed: 2025-09-01",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-09-01,,5
+Deployment,Story,EPT,"Target Date: 2025-09-18
+Status: Completed
+
+Complete deployment phase
+Completed: 2025-09-18",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-09-18,,3
+Documentation,Story,EPT,"Target Date: 2025-10-04
+Status: Completed
+
+Complete documentation phase
+Completed: 2025-10-04",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-10-04,,2
+Discovery,Story,EPT,"Target Date: 2025-09-29
+Status: Completed
+
+Complete discovery phase
+Completed: 2025-09-29",,Cloud Migration Initiative,,High,Done,"project-tracker,milestone,completed",2025-09-29,,5
+Prototype,Story,EPT,"Target Date: 2025-10-17
+Status: Completed
+
+Complete prototype phase
+Completed: 2025-10-17",,Cloud Migration Initiative,,High,Done,"project-tracker,milestone,completed",2025-10-17,,5
+Beta Release,Story,EPT,"Target Date: 2025-11-04
+Status: Completed
+
+Complete beta release phase
+Completed: 2025-11-04",,Cloud Migration Initiative,,High,Done,"project-tracker,milestone,completed",2025-11-04,,3
+Production Release,Story,EPT,"Target Date: 2025-11-22
+Status: Pending
+
+Complete production release phase",,Cloud Migration Initiative,,Medium,To Do,"project-tracker,milestone,pending",2025-11-22,,3
+Discovery,Story,EPT,"Target Date: 2025-10-08
+Status: Completed
+
+Complete discovery phase
+Completed: 2025-10-08",,Mobile App Development,,High,Done,"project-tracker,milestone,completed",2025-10-08,,5
+Prototype,Story,EPT,"Target Date: 2025-10-20
+Status: Completed
+
+Complete prototype phase
+Completed: 2025-10-20",,Mobile App Development,,High,Done,"project-tracker,milestone,completed",2025-10-20,,5
+Beta Release,Story,EPT,"Target Date: 2025-11-01
+Status: Completed
+
+Complete beta release phase
+Completed: 2025-11-01",,Mobile App Development,,High,Done,"project-tracker,milestone,completed",2025-11-01,,3
+Production Release,Story,EPT,"Target Date: 2025-11-13
+Status: In Progress
+
+Complete production release phase",,Mobile App Development,,High,In Progress,"project-tracker,milestone,in-progress",2025-11-13,,3
+Discovery,Story,EPT,"Target Date: 2025-10-29
+Status: Completed
+
+Complete discovery phase
+Completed: 2025-10-29",,Data Analytics Platform,,High,Done,"project-tracker,milestone,completed",2025-10-29,,5
+Prototype,Story,EPT,"Target Date: 2025-11-16
+Status: In Progress
+
+Complete prototype phase",,Data Analytics Platform,,High,In Progress,"project-tracker,milestone,in-progress",2025-11-16,,5
+Beta Release,Story,EPT,"Target Date: 2025-12-04
+Status: Pending
+
+Complete beta release phase",,Data Analytics Platform,,Medium,To Do,"project-tracker,milestone,pending",2025-12-04,,3
+Production Release,Story,EPT,"Target Date: 2025-12-22
+Status: Pending
+
+Complete production release phase",,Data Analytics Platform,,Medium,To Do,"project-tracker,milestone,pending",2025-12-22,,3
+Planning & Design,Story,EPT,"Target Date: 2025-08-25
+Status: Completed
+
+Complete planning & design phase
+Completed: 2025-08-25",,Security Audit & Compliance,,High,Done,"project-tracker,milestone,completed",2025-08-25,,3
+Development Phase,Story,EPT,"Target Date: 2025-09-08
+Status: Completed
+
+Complete development phase phase
+Completed: 2025-09-08",,Security Audit & Compliance,,High,Done,"project-tracker,milestone,completed",2025-09-08,,8
+Testing & QA,Story,EPT,"Target Date: 2025-09-21
+Status: Delayed
+
+Complete testing & qa phase",,Security Audit & Compliance,,Highest,In Progress,"project-tracker,milestone,delayed",2025-09-21,,5
+Deployment,Story,EPT,"Target Date: 2025-10-04
+Status: Delayed
+
+Complete deployment phase",,Security Audit & Compliance,,Highest,In Progress,"project-tracker,milestone,delayed",2025-10-04,,3
+Documentation,Story,EPT,"Target Date: 2025-10-18
+Status: Delayed
+
+Complete documentation phase",,Security Audit & Compliance,,Highest,In Progress,"project-tracker,milestone,delayed",2025-10-18,,2
+Requirements Gathering,Story,EPT,"Target Date: 2025-07-30
+Status: Completed
+
+Complete requirements gathering phase
+Completed: 2025-07-30",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-07-30,,5
+Architecture Design,Story,EPT,"Target Date: 2025-08-15
+Status: Completed
+
+Complete architecture design phase
+Completed: 2025-08-15",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-08-15,,3
+Implementation,Story,EPT,"Target Date: 2025-09-01
+Status: Completed
+
+Complete implementation phase
+Completed: 2025-09-01",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-09-01,,8
+Integration,Story,EPT,"Target Date: 2025-09-18
+Status: Completed
+
+Complete integration phase
+Completed: 2025-09-18",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-09-18,,5
+Go-Live,Story,EPT,"Target Date: 2025-10-04
+Status: Completed
+
+Complete go-live phase
+Completed: 2025-10-04",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-10-04,,5
+Discovery,Story,EPT,"Target Date: 2025-09-29
+Status: Completed
+
+Complete discovery phase
+Completed: 2025-09-29",,Cloud Migration Initiative,,High,Done,"project-tracker,milestone,completed",2025-09-29,,5
+Prototype,Story,EPT,"Target Date: 2025-10-17
+Status: Completed
+
+Complete prototype phase
+Completed: 2025-10-17",,Cloud Migration Initiative,,High,Done,"project-tracker,milestone,completed",2025-10-17,,5
+Beta Release,Story,EPT,"Target Date: 2025-11-04
+Status: Completed
+
+Complete beta release phase
+Completed: 2025-11-04",,Cloud Migration Initiative,,High,Done,"project-tracker,milestone,completed",2025-11-04,,3
+Production Release,Story,EPT,"Target Date: 2025-11-22
+Status: Pending
+
+Complete production release phase",,Cloud Migration Initiative,,Medium,To Do,"project-tracker,milestone,pending",2025-11-22,,3
+Discovery,Story,EPT,"Target Date: 2025-10-08
+Status: Completed
+
+Complete discovery phase
+Completed: 2025-10-08",,Mobile App Development,,High,Done,"project-tracker,milestone,completed",2025-10-08,,5
+Prototype,Story,EPT,"Target Date: 2025-10-20
+Status: Completed
+
+Complete prototype phase
+Completed: 2025-10-20",,Mobile App Development,,High,Done,"project-tracker,milestone,completed",2025-10-20,,5
+Beta Release,Story,EPT,"Target Date: 2025-11-01
+Status: Completed
+
+Complete beta release phase
+Completed: 2025-11-01",,Mobile App Development,,High,Done,"project-tracker,milestone,completed",2025-11-01,,3
+Production Release,Story,EPT,"Target Date: 2025-11-13
+Status: In Progress
+
+Complete production release phase",,Mobile App Development,,High,In Progress,"project-tracker,milestone,in-progress",2025-11-13,,3
+Discovery,Story,EPT,"Target Date: 2025-10-29
+Status: Completed
+
+Complete discovery phase
+Completed: 2025-10-29",,Data Analytics Platform,,High,Done,"project-tracker,milestone,completed",2025-10-29,,5
+Prototype,Story,EPT,"Target Date: 2025-11-16
+Status: In Progress
+
+Complete prototype phase",,Data Analytics Platform,,High,In Progress,"project-tracker,milestone,in-progress",2025-11-16,,5
+Beta Release,Story,EPT,"Target Date: 2025-12-04
+Status: Pending
+
+Complete beta release phase",,Data Analytics Platform,,Medium,To Do,"project-tracker,milestone,pending",2025-12-04,,3
+Production Release,Story,EPT,"Target Date: 2025-12-22
+Status: Pending
+
+Complete production release phase",,Data Analytics Platform,,Medium,To Do,"project-tracker,milestone,pending",2025-12-22,,3
+Discovery,Story,EPT,"Target Date: 2025-08-28
+Status: Completed
+
+Complete discovery phase
+Completed: 2025-08-28",,Security Audit & Compliance,,High,Done,"project-tracker,milestone,completed",2025-08-28,,5
+Prototype,Story,EPT,"Target Date: 2025-09-13
+Status: Completed
+
+Complete prototype phase
+Completed: 2025-09-13",,Security Audit & Compliance,,High,Done,"project-tracker,milestone,completed",2025-09-13,,5
+Beta Release,Story,EPT,"Target Date: 2025-09-29
+Status: Delayed
+
+Complete beta release phase",,Security Audit & Compliance,,Highest,In Progress,"project-tracker,milestone,delayed",2025-09-29,,3
+Production Release,Story,EPT,"Target Date: 2025-10-15
+Status: Delayed
+
+Complete production release phase",,Security Audit & Compliance,,Highest,In Progress,"project-tracker,milestone,delayed",2025-10-15,,3
+Discovery,Story,EPT,"Target Date: 2025-08-02
+Status: Completed
+
+Complete discovery phase
+Completed: 2025-08-02",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-08-02,,5
+Prototype,Story,EPT,"Target Date: 2025-08-22
+Status: Completed
+
+Complete prototype phase
+Completed: 2025-08-22",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-08-22,,5
+Beta Release,Story,EPT,"Target Date: 2025-09-11
+Status: Completed
+
+Complete beta release phase
+Completed: 2025-09-11",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-09-11,,3
+Production Release,Story,EPT,"Target Date: 2025-10-01
+Status: Completed
+
+Complete production release phase
+Completed: 2025-10-01",,API Gateway Implementation,,High,Done,"project-tracker,milestone,completed",2025-10-01,,3
+Technology Dependencies,Task,EPT,"Severity: High
+Status: Open
+
+Third-party services may have delays
+
+Mitigation Plan:
+Develop mitigation strategy for technology dependencies",,Cloud Migration Initiative,,Highest,To Do,"project-tracker,risk,high,open",,,
+Resource Availability,Task,EPT,"Severity: Medium
+Status: Open
+
+Key team members may not be available
+
+Mitigation Plan:
+Develop mitigation strategy for resource availability",,Cloud Migration Initiative,,High,To Do,"project-tracker,risk,medium,open",,,
+Scope Creep,Task,EPT,"Severity: Medium
+Status: Open
+
+Project requirements may expand
+
+Mitigation Plan:
+Develop mitigation strategy for scope creep",,Cloud Migration Initiative,,High,To Do,"project-tracker,risk,medium,open",,,
+Integration Challenges,Task,EPT,"Severity: High
+Status: Open
+
+Complex integration with existing systems
+
+Mitigation Plan:
+Develop mitigation strategy for integration challenges",,Mobile App Development,,Highest,To Do,"project-tracker,risk,high,open",,,
+Budget Constraints,Task,EPT,"Severity: Low
+Status: Open
+
+Project may exceed allocated budget
+
+Mitigation Plan:
+Develop mitigation strategy for budget constraints",,Mobile App Development,,Medium,To Do,"project-tracker,risk,low,open",,,
+Technology Dependencies,Task,EPT,"Severity: High
+Status: Open
+
+Third-party services may have delays
+
+Mitigation Plan:
+Develop mitigation strategy for technology dependencies",,Mobile App Development,,Highest,To Do,"project-tracker,risk,high,open",,,
+Technology Dependencies,Task,EPT,"Severity: High
+Status: Open
+
+Third-party services may have delays
+
+Mitigation Plan:
+Develop mitigation strategy for technology dependencies",,Data Analytics Platform,,Highest,To Do,"project-tracker,risk,high,open",,,
+Technology Dependencies,Task,EPT,"Severity: High
+Status: Open
+
+Third-party services may have delays
+
+Mitigation Plan:
+Develop mitigation strategy for technology dependencies",,Security Audit & Compliance,,Highest,To Do,"project-tracker,risk,high,open",,,
+Budget Constraints,Task,EPT,"Severity: Low
+Status: Open
+
+Project may exceed allocated budget
+
+Mitigation Plan:
+Develop mitigation strategy for budget constraints",,Security Audit & Compliance,,Medium,To Do,"project-tracker,risk,low,open",,,
+Budget Constraints,Task,EPT,"Severity: Low
+Status: Open
+
+Project may exceed allocated budget
+
+Mitigation Plan:
+Develop mitigation strategy for budget constraints",,API Gateway Implementation,,Medium,To Do,"project-tracker,risk,low,open",,,
+Integration Challenges,Task,EPT,"Severity: High
+Status: Open
+
+Complex integration with existing systems
+
+Mitigation Plan:
+Develop mitigation strategy for integration challenges",,API Gateway Implementation,,Highest,To Do,"project-tracker,risk,high,open",,,
+Technology Dependencies,Task,EPT,"Severity: High
+Status: Open
+
+Third-party services may have delays
+
+Mitigation Plan:
+Develop mitigation strategy for technology dependencies",,Cloud Migration Initiative,,Highest,To Do,"project-tracker,risk,high,open",,,
+Resource Availability,Task,EPT,"Severity: Medium
+Status: Mitigated
+
+Key team members may not be available
+
+Mitigation Plan:
+Develop mitigation strategy for resource availability",,Mobile App Development,,High,In Progress,"project-tracker,risk,medium,mitigated",,,
+Technology Dependencies,Task,EPT,"Severity: High
+Status: Open
+
+Third-party services may have delays
+
+Mitigation Plan:
+Develop mitigation strategy for technology dependencies",,Data Analytics Platform,,Highest,To Do,"project-tracker,risk,high,open",,,
+Budget Constraints,Task,EPT,"Severity: Low
+Status: Open
+
+Project may exceed allocated budget
+
+Mitigation Plan:
+Develop mitigation strategy for budget constraints",,Data Analytics Platform,,Medium,To Do,"project-tracker,risk,low,open",,,
+Scope Creep,Task,EPT,"Severity: Medium
+Status: Mitigated
+
+Project requirements may expand
+
+Mitigation Plan:
+Develop mitigation strategy for scope creep",,Data Analytics Platform,,High,In Progress,"project-tracker,risk,medium,mitigated",,,
+Technology Dependencies,Task,EPT,"Severity: High
+Status: Open
+
+Third-party services may have delays
+
+Mitigation Plan:
+Develop mitigation strategy for technology dependencies",,Security Audit & Compliance,,Highest,To Do,"project-tracker,risk,high,open",,,
+Budget Constraints,Task,EPT,"Severity: Low
+Status: Open
+
+Project may exceed allocated budget
+
+Mitigation Plan:
+Develop mitigation strategy for budget constraints",,Security Audit & Compliance,,Medium,To Do,"project-tracker,risk,low,open",,,
+Scope Creep,Task,EPT,"Severity: Medium
+Status: Open
+
+Project requirements may expand
+
+Mitigation Plan:
+Develop mitigation strategy for scope creep",,Security Audit & Compliance,,High,To Do,"project-tracker,risk,medium,open",,,
+Budget Constraints,Task,EPT,"Severity: Low
+Status: Open
+
+Project may exceed allocated budget
+
+Mitigation Plan:
+Develop mitigation strategy for budget constraints",,API Gateway Implementation,,Medium,To Do,"project-tracker,risk,low,open",,,
+Technology Dependencies,Task,EPT,"Severity: High
+Status: Open
+
+Third-party services may have delays
+
+Mitigation Plan:
+Develop mitigation strategy for technology dependencies",,Cloud Migration Initiative,,Highest,To Do,"project-tracker,risk,high,open",,,
+Budget Constraints,Task,EPT,"Severity: Low
+Status: Open
+
+Project may exceed allocated budget
+
+Mitigation Plan:
+Develop mitigation strategy for budget constraints",,Mobile App Development,,Medium,To Do,"project-tracker,risk,low,open",,,
+Resource Availability,Task,EPT,"Severity: Medium
+Status: Mitigated
+
+Key team members may not be available
+
+Mitigation Plan:
+Develop mitigation strategy for resource availability",,Data Analytics Platform,,High,In Progress,"project-tracker,risk,medium,mitigated",,,
+Integration Challenges,Task,EPT,"Severity: High
+Status: Open
+
+Complex integration with existing systems
+
+Mitigation Plan:
+Develop mitigation strategy for integration challenges",,Data Analytics Platform,,Highest,To Do,"project-tracker,risk,high,open",,,
+Integration Challenges,Task,EPT,"Severity: High
+Status: Open
+
+Complex integration with existing systems
+
+Mitigation Plan:
+Develop mitigation strategy for integration challenges",,Security Audit & Compliance,,Highest,To Do,"project-tracker,risk,high,open",,,
+Technology Dependencies,Task,EPT,"Severity: High
+Status: Mitigated
+
+Third-party services may have delays
+
+Mitigation Plan:
+Develop mitigation strategy for technology dependencies",,Security Audit & Compliance,,Highest,In Progress,"project-tracker,risk,high,mitigated",,,
+Resource Availability,Task,EPT,"Severity: Medium
+Status: Open
+
+Key team members may not be available
+
+Mitigation Plan:
+Develop mitigation strategy for resource availability",,Security Audit & Compliance,,High,To Do,"project-tracker,risk,medium,open",,,
+Budget Constraints,Task,EPT,"Severity: Low
+Status: Open
+
+Project may exceed allocated budget
+
+Mitigation Plan:
+Develop mitigation strategy for budget constraints",,API Gateway Implementation,,Medium,To Do,"project-tracker,risk,low,open",,,
+Scope Creep,Task,EPT,"Severity: Medium
+Status: Open
+
+Project requirements may expand
+
+Mitigation Plan:
+Develop mitigation strategy for scope creep",,API Gateway Implementation,,High,To Do,"project-tracker,risk,medium,open",,,
+Technology Dependencies,Task,EPT,"Severity: High
+Status: Open
+
+Third-party services may have delays
+
+Mitigation Plan:
+Develop mitigation strategy for technology dependencies",,API Gateway Implementation,,Highest,To Do,"project-tracker,risk,high,open",,,

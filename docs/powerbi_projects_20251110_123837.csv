@@ -1,0 +1,16 @@
+Project ID,Project Name,Owner,Description,Status,Start Date,Deadline,Completion Percentage,Days Remaining,Is Overdue,Is On Track,Created At,Updated At
+1,Cloud Migration Initiative,Sarah Johnson,Migrate legacy systems to cloud infrastructure,In Progress,2025-09-11,2025-12-10,65.0,30,No,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+2,Mobile App Development,Michael Chen,Build iOS and Android mobile applications,In Progress,2025-09-26,2025-11-25,80.0,15,No,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+3,Data Analytics Platform,Emily Rodriguez,Develop analytics dashboard for business intelligence,In Progress,2025-10-11,2026-01-09,40.0,60,No,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+4,Security Audit & Compliance,David Kim,Conduct security audit and ensure compliance,On Hold,2025-08-12,2025-10-31,30.0,-10,Yes,No,2025-11-10 06:11:04,2025-11-10 06:11:04
+5,API Gateway Implementation,Lisa Wang,Implement centralized API gateway for microservices,Completed,2025-07-13,2025-10-21,100.0,-20,No,Yes,2025-11-10 06:11:04,2025-11-10 06:11:04
+6,Cloud Migration Initiative,Sarah Johnson,Migrate legacy systems to cloud infrastructure,In Progress,2025-09-11,2025-12-10,65.0,30,No,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+7,Mobile App Development,Michael Chen,Build iOS and Android mobile applications,In Progress,2025-09-26,2025-11-25,80.0,15,No,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+8,Data Analytics Platform,Emily Rodriguez,Develop analytics dashboard for business intelligence,In Progress,2025-10-11,2026-01-09,40.0,60,No,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+9,Security Audit & Compliance,David Kim,Conduct security audit and ensure compliance,On Hold,2025-08-12,2025-10-31,30.0,-10,Yes,No,2025-11-10 06:45:18,2025-11-10 06:45:18
+10,API Gateway Implementation,Lisa Wang,Implement centralized API gateway for microservices,Completed,2025-07-13,2025-10-21,100.0,-20,No,Yes,2025-11-10 06:45:18,2025-11-10 06:45:18
+11,Cloud Migration Initiative,Sarah Johnson,Migrate legacy systems to cloud infrastructure,In Progress,2025-09-11,2025-12-10,65.0,30,No,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32
+12,Mobile App Development,Michael Chen,Build iOS and Android mobile applications,In Progress,2025-09-26,2025-11-25,80.0,15,No,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32
+13,Data Analytics Platform,Emily Rodriguez,Develop analytics dashboard for business intelligence,In Progress,2025-10-11,2026-01-09,40.0,60,No,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32
+14,Security Audit & Compliance,David Kim,Conduct security audit and ensure compliance,On Hold,2025-08-12,2025-10-31,30.0,-10,Yes,No,2025-11-10 06:45:32,2025-11-10 06:45:32
+15,API Gateway Implementation,Lisa Wang,Implement centralized API gateway for microservices,Completed,2025-07-13,2025-10-21,100.0,-20,No,Yes,2025-11-10 06:45:32,2025-11-10 06:45:32

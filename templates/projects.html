@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Project Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <i class="bi bi-kanban"></i> Project Tracker
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dashboard">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1><i class="bi bi-folder"></i> Projects</h1>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal" onclick="openProjectModal()">
+                <i class="bi bi-plus-circle"></i> Add Project
+            </button>
+        </div>
+
+        <div class="row" id="projectsContainer">
+            <div class="col-12 text-center">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModalTitle">Add Project</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="projectForm">
+                        <input type="hidden" id="projectId">
+                        <div class="mb-3">
+                            <label class="form-label">Project Name *</label>
+                            <input type="text" class="form-control" id="projectName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Owner *</label>
+                            <input type="text" class="form-control" id="projectOwner" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Description</label>
+                            <textarea class="form-control" id="projectDescription" rows="3"></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Start Date *</label>
+                                <input type="date" class="form-control" id="projectStartDate" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Deadline *</label>
+                                <input type="date" class="form-control" id="projectDeadline" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Status</label>
+                            <select class="form-select" id="projectStatus">
+                                <option value="NOT_STARTED">Not Started</option>
+                                <option value="IN_PROGRESS">In Progress</option>
+                                <option value="ON_HOLD">On Hold</option>
+                                <option value="COMPLETED">Completed</option>
+                                <option value="CANCELLED">Cancelled</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Completion Percentage</label>
+                            <input type="number" class="form-control" id="projectCompletion" min="0" max="100" value="0">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="saveProject()">Save Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Detail Modal -->
+    <div class="modal fade" id="projectDetailModal" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectDetailTitle">Project Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs" id="projectTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="milestones-tab" data-bs-toggle="tab" data-bs-target="#milestones" type="button">Milestones</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="risks-tab" data-bs-toggle="tab" data-bs-target="#risks" type="button">Risks</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="summary-tab" data-bs-toggle="tab" data-bs-target="#summary" type="button">AI Summary</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="projectTabContent">
+                        <div class="tab-pane fade show active" id="milestones" role="tabpanel">
+                            <div class="d-flex justify-content-between align-items-center mt-3 mb-3">
+                                <h5>Milestones</h5>
+                                <button class="btn btn-sm btn-primary" onclick="openMilestoneModal()">
+                                    <i class="bi bi-plus"></i> Add Milestone
+                                </button>
+                            </div>
+                            <div id="milestonesList"></div>
+                        </div>
+                        <div class="tab-pane fade" id="risks" role="tabpanel">
+                            <div class="d-flex justify-content-between align-items-center mt-3 mb-3">
+                                <h5>Risks</h5>
+                                <button class="btn btn-sm btn-warning" onclick="openRiskModal()">
+                                    <i class="bi bi-plus"></i> Add Risk
+                                </button>
+                            </div>
+                            <div id="risksList"></div>
+                        </div>
+                        <div class="tab-pane fade" id="summary" role="tabpanel">
+                            <div class="mt-3">
+                                <button class="btn btn-primary mb-3" onclick="generateSummary()">
+                                    <i class="bi bi-robot"></i> Generate AI Summary
+                                </button>
+                                <div id="aiSummary" class="p-3 bg-light rounded"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Milestone Modal -->
+    <div class="modal fade" id="milestoneModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Milestone</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="milestoneForm">
+                        <input type="hidden" id="milestoneId">
+                        <input type="hidden" id="milestoneProjectId">
+                        <div class="mb-3">
+                            <label class="form-label">Milestone Name *</label>
+                            <input type="text" class="form-control" id="milestoneName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Description</label>
+                            <textarea class="form-control" id="milestoneDescription" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Target Date *</label>
+                            <input type="date" class="form-control" id="milestoneTargetDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Status</label>
+                            <select class="form-select" id="milestoneStatus">
+                                <option value="PENDING">Pending</option>
+                                <option value="IN_PROGRESS">In Progress</option>
+                                <option value="COMPLETED">Completed</option>
+                                <option value="DELAYED">Delayed</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="saveMilestone()">Save Milestone</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Risk Modal -->
+    <div class="modal fade" id="riskModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add Risk</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="riskForm">
+                        <input type="hidden" id="riskId">
+                        <input type="hidden" id="riskProjectId">
+                        <div class="mb-3">
+                            <label class="form-label">Risk Name *</label>
+                            <input type="text" class="form-control" id="riskName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Description</label>
+                            <textarea class="form-control" id="riskDescription" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Severity *</label>
+                            <select class="form-select" id="riskSeverity" required>
+                                <option value="LOW">Low</option>
+                                <option value="MEDIUM">Medium</option>
+                                <option value="HIGH">High</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Mitigation Plan</label>
+                            <textarea class="form-control" id="riskMitigation" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Status</label>
+                            <select class="form-select" id="riskStatus">
+                                <option value="Open">Open</option>
+                                <option value="Mitigated">Mitigated</option>
+                                <option value="Closed">Closed</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-warning" onclick="saveRisk()">Save Risk</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 AI-SaaS Project Tracker. Built with Flask & Bootstrap.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/projects.js') }}"></script>
+</body>
+</html>
+
+

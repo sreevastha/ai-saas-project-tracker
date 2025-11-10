@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-SaaS Project Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <i class="bi bi-kanban"></i> Project Tracker
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/dashboard">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron bg-light p-5 rounded mb-4">
+                    <h1 class="display-4">AI-SaaS Project Tracker</h1>
+                    <p class="lead">Track software project progress, milestones, risks, and performance KPIs</p>
+                    <hr class="my-4">
+                    <p>Manage your projects with enterprise-grade tracking and analytics.</p>
+                    <a class="btn btn-primary btn-lg" href="/dashboard" role="button">
+                        <i class="bi bi-speedometer2"></i> Go to Dashboard
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <i class="bi bi-folder-plus display-4 text-primary"></i>
+                        <h5 class="card-title mt-3">Project Management</h5>
+                        <p class="card-text">Create, update, and track your software projects with ease.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <i class="bi bi-flag display-4 text-success"></i>
+                        <h5 class="card-title mt-3">Milestone Tracking</h5>
+                        <p class="card-text">Set and monitor project milestones with real-time status updates.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <i class="bi bi-exclamation-triangle display-4 text-warning"></i>
+                        <h5 class="card-title mt-3">Risk Management</h5>
+                        <p class="card-text">Log and track project risks with severity levels and mitigation plans.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5><i class="bi bi-graph-up"></i> KPI Dashboard</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Visualize key performance indicators including:</p>
+                        <ul>
+                            <li>Projects on track percentage</li>
+                            <li>Average delay percentage</li>
+                            <li>High-risk project count</li>
+                            <li>Completion trends</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header bg-success text-white">
+                        <h5><i class="bi bi-file-earmark-spreadsheet"></i> Data Export</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Export your project data to CSV for:</p>
+                        <ul>
+                            <li>Power BI integration</li>
+                            <li>Advanced analytics</li>
+                            <li>Custom reporting</li>
+                            <li>Data backup</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 AI-SaaS Project Tracker. Built with Flask & Bootstrap.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
